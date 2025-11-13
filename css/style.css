@@ -21,42 +21,45 @@ main {
     background-color: #ffffff;
 }
 
-main.step {
+main .step {
     display: flex;
     width: 100%;
     background-color: #ffffff;
-    &.left {
-        justify-content: flex-start;
-    }
-    &.right {
-        justify-content: flex-end;
-    }
-    &.center {
-        justify-content: center;
-    }
+}
 
-    .content {
-        display: block;
-        margin: 16px;
-        padding: 16px;
-        background-color: #d9dc937e;
+main .left {
+    justify-content: flex-start;
+}
 
-        .title {
-            display: flex;
-            align-items: center;
-            .box {
-                width: 48px;
-                height: 48px;
-                background-color: #937ed9;
-                margin: 16px;
-                padding: 16px;
-            }
-            .title_text {
-                font-size: 36px;
-                font-family: "Kaisei Opti", serif;
-                font-weight: 400;
-                font-style: normal;
-            }
+main .right {
+    justify-content: flex-end;
+}
+
+main .center {
+    justify-content: center;
+}
+
+main .step .content {
+    display: block;
+    margin: 16px;
+    padding: 16px;
+    background-color: #d9dc937e;
+
+    .title {
+        display: flex;
+        align-items: center;
+        .box {
+            width: 48px;
+            height: 48px;
+            background-color: #937ed9;
+            margin: 16px;
+            padding: 16px;
+        }
+        .title_text {
+            font-size: 36px;
+            font-family: "Kaisei Opti", serif;
+            font-weight: 400;
+            font-style: normal;
         }
     }
 }
