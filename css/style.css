@@ -44,24 +44,26 @@ main .step .content {
     margin: 16px;
     padding: 16px;
     background-color: #d9dc937e;
+}
 
-    .title {
-        display: flex;
-        align-items: center;
-        .box {
-            width: 48px;
-            height: 48px;
-            background-color: #937ed9;
-            margin: 16px;
-            padding: 16px;
-        }
-        .title_text {
-            font-size: 36px;
-            font-family: "Kaisei Opti", serif;
-            font-weight: 400;
-            font-style: normal;
-        }
-    }
+main .step .content .title {
+    display: flex;
+    align-items: center;
+}
+
+main .step .content .title .box {
+    width: 48px;
+    height: 48px;
+    background-color: #937ed9;
+    margin: 16px;
+    padding: 16px;
+}
+
+main .step .content .title .title_text {
+    font-size: 36px;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 main .step .content .text {
