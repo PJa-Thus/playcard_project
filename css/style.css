@@ -67,6 +67,7 @@ main .step .content .title .title_text {
 }
 
 main .step .content .text {
+    margin-left: 16px;
     font-size: 24px;
     font-family: "Shippori Mincho B1", serif;
     font-weight: 400;
