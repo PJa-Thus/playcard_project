@@ -36,5 +36,14 @@
 
         </main>
         <footer>画面遷移用,言語表示など</footer>
+        <script>
+            fetch("https://script.google.com/macros/s/AKfycbyYhg_4JMLNA24-TG7joPWhny56RNb6HZ744RpLIOSbVz3aqiwqc2mAuN5Rrrm4ISDh/exec", {
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({value: "user1,pass1"})
+            })
+            .then(res => res.text())
+            .then(console.log); // → "終わりました"
+        </script>
     </body>
 </html>
